@@ -17,47 +17,44 @@
   width: 100%; /* for IE 6 */
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 300px) {
   .servicios {
-    font-size: 20px;
     font-family: 'Inconsolata', monospace;
   }
   .sub {
-    font-size: 15px;
     font-family: 'Inconsolata', monospace;
   }
 }
 
 h2 {
+  font-size: 30px;
+  font-family: 'Inconsolata', monospace;
   position: absolute;
   background-color: transparent;
   top: 70px;
   left: 0px;
   text-align: left; padding-left: 20px; padding-top: 18px;
-  color: white;
 }
 
 h3 {
+  font-size: 15px;
+  font-family: 'Inconsolata', monospace;
   position: absolute;
   background-color: transparent;
   top: 100px;
   left: 0px;
   text-align: left; padding-left: 20px; padding-top: 18px;
-  color: white;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 768px) {
   .img-circle {
     height: 250px;
-    display: none;
-    padding-left: 20px;
-    margin: 50px;
-    font-family: 'Inconsolata', monospace;
-    text-align: center;
+    margin-left: 80px;
   }
 }
 
-.skills {
+h4 {
+  float: center;
   background-color: transparent;
   font-family: 'Inconsolata', monospace;
   font-size: 50px;
@@ -66,8 +63,6 @@ h3 {
 }
 
 .label {
-  padding-bottom: 70px;
-  font-family: 'Inconsolata', monospace;
   display: inline;
 }
 
